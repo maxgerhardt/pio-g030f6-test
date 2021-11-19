@@ -4,7 +4,7 @@
 
 void setup() {
    Serial.begin(9600); /* generic variant: TX = PA2, RX = PA3 */
-   pinMode(BLINKY_LED, PB7);
+   pinMode(BLINKY_LED, OUTPUT);
 }
 void loop() {
    Serial.println("Hello, world!");
